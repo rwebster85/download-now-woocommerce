@@ -4,8 +4,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://wordpress.org/plugins/download-now-for-woocommerce/
 Requires at Least: 4.4
-Tested up to: 4.7.3
-Stable tag: 2.5
+Tested up to: 4.8
+Stable tag: 3.0
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: woocommerce, downloads, downloadable, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce

@@ -1,5 +1,5 @@
 === Download Now Pro ===
-Contributors: squareonemedia, rwebster85
+Contributors: squareonemedia
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VAYF6G99MCMHU
 Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://wordpress.org/plugins/download-now-for-woocommerce/

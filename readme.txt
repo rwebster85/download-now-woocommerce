@@ -1,26 +1,25 @@
-=== Download Now Pro ===
-Contributors: squareonemedia
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VAYF6G99MCMHU
+=== Free Downloads - WooCommerce Premium ===
+Contributors: squareonemedia, rwebster85
 Author URI: https://www.squareonemedia.co.uk
-Plugin URL: https://wordpress.org/plugins/download-now-for-woocommerce/
+Plugin URL: https://squareonemedia.co.uk/products/free-downloads-woocommerce/
 Requires at Least: 4.4
-Tested up to: 4.8
-Stable tag: 2.7
+Tested up to: 4.8.2
+Stable tag: trunk
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: woocommerce, downloads, downloadable, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce
+Tags: woocommerce, downloads, downloadable, free downloads, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce
 
 Allow users to instantly download your free digital products without going through the checkout.
 
 == Description ==
 
-**Download Now** is the definitive plugin for offering free downloads on your WooCommerce store. It allows users to bypass the checkout to download your free products, supports single and multiple files, and is highly customisable. You can also see how many times your products have been downloaded for free.
+**Free Downloads** is the definitive plugin for offering free downloads on your WooCommerce store. It allows users to bypass the checkout to download your free products, supports single and multiple files, and is highly customisable. You can also see how many times your products have been downloaded for free.
 
 This plugin has been designed for content creators and distributors to fully take advantage of their digital store. Whether you sell audio files, course documentation, themes and plugins, or just want to offer digital catalogues for your tangible products, this plugins allows your visitors to get to your free downloads with ease.
 
 This plugin is safe and rock-solid secure, and everything is handled by your server including authentication, so you don't have to worry.
 
-**Download Now** is also fully integrated with the official **Memberships** and **Subscriptions** plugins for WooCommerce.
+**Free Downloads** is also fully integrated with the official **Memberships** and **Subscriptions** plugins for WooCommerce.
 
 = How it works =
 
@@ -45,7 +44,7 @@ Full supporting documentation is included with the plugin, available on the plug
 1. Download the plugin ZIP file from WordPress.org
 2. From the WordPress admin dashboard go to Plugins, Add New
 3. Click Upload Plugin, locate the file, upload
-4. In the WordPress dashboard go to Plugins, Installed Plugins, and activate **Download Now**
+4. In the WordPress dashboard go to Plugins, Installed Plugins, and activate **Free Downloads**
 
 **Manually using FTP**
 
@@ -53,15 +52,19 @@ Full supporting documentation is included with the plugin, available on the plug
 2. FTP to your server and go to your root WordPress directory
 3. Navigate to wp-content/plugins
 4. Upload the parent directory *download-now-for-woocommerce* - the folder that contains the file som-woocommerce-download-now.php - to that location
-5. In the WordPress dashboard go to Plugins, Installed Plugins, and activate **Download Now**
+5. In the WordPress dashboard go to Plugins, Installed Plugins, and activate **Free Downloads**
 
-You can customise **Download Now** on the Plugins, Download Now dashboard page.
+You can customise **Free Downloads** on the Plugins, Free Downloads dashboard page.
 
 == Frequently Asked Questions ==
 
+= What version of WooCommerce is supported? =
+
+**Free Downloads** only supports WooCommerce version 3.0 and above.
+
 = How can I get support? =
 
-**Download Now** comes complete with a full guide and explanation of the plugin settings. These are available on the plugin settings page. If you need more help, please feel free to post in the [support forum](https://wordpress.org/support/plugin/download-now-for-woocommerce/).
+**Free Downloads** comes complete with a full guide and explanation of the plugin settings. These are available on the plugin settings page. If you need more help, please feel free to post in the [support forum](https://wordpress.org/support/plugin/download-now-for-woocommerce/).
 
 = How are files downloaded? =
 
@@ -91,7 +94,7 @@ Yes, implicitly. The official Memberships and Subscriptions plugins from Woo are
 
 = What other plugins are supported? =
 
-**Download Now** should be compatible with most plugins. If you have a problem please get in touch and we will include support if possible.
+**Free Downloads** should be compatible with most plugins. If you have a problem please get in touch and we will include support if possible.
 
 Below is a list of explicitly supported plugins:
 
@@ -108,27 +111,66 @@ Below is a list of explicitly supported plugins:
 
 == Changelog ==
 
+= 2.4.95 - 15/12/2017 =
+* Included POT file. Plugin should now be translation ready.
+
+= 2.4.94 - 15/12/2017 =
+* Preparation for plugin internationalisation
+
+= 2.4.93 - 12/12/2017 =
+* New Option: Force ZIP file creation for single files
+
+= 2.4.92 - 21/11/2017 =
+* Fixed bug on user account memberships page
+* Download buttond now add/remove a "loading" class when clicked
+* General housekeeping
+
+= 2.4.91 - 18/10/2017 =
+* Removed outdated get_product() function calls, replaced with wc_get_product()
+
+= 2.4.9 - 16/10/2017 =
+* Fixed compatibility for WooCommerce Memberships 1.9+
+
+= 2.4.8 - 10/10/2017 =
+* Fixed bug with "Links Only" multiple file download option
+
+= 2.4.7 - 09/10/2017 =
+* Changed download form actions to make plugin more compatible with security features found in some plugins/themes
+
+= 2.4.6 - 03/10/2017 =
+* Fixed bug with displaying button text on shop pages
+
+= 2.4.5 - 01/10/2017 =
+* Renamed plugin to Free Downloads - WooCommerce
+* New Option: add custom CSS classes to the download buttons and links
+* Error message now displays if "download all" zip file is empty, usually caused by using external links
+* General housekeeping
+
+= 2.4.4 - 12/04/2017 =
+* Changes for compatibility with WooCommerce version 3.0+
+* Plugin now only supports WooCommerce version 3.0 and above
+
 = 2.4.3 - 16/03/2017 =
-* Fixed error when user has no memberships in the membership site.
+* Fixed error when user has no memberships in the membership site
 
 = 2.4.2 =
-* Now supports WooCommerce Memberships version 1.7+.
+* Now supports WooCommerce Memberships version 1.7+
 
 = 2.4.1 =
-* Fixed bug where Membership download would fail on some setups.
+* Fixed bug where Membership download would fail on some setups
 
 = 2.4 =
-* Membership items with a 100% discount for members can now be included. This option is off by default.
+* Membership items with a 100% discount for members can now be included. This option is off by default
 
 = 2.3.82 =
-* Change to hide cart CSS logic.
+* Change to hide cart CSS logic
 
 = 2.3.81 =
-* Fixed plugin activation error.
+* Fixed plugin activation error
 
 = 2.3.8 =
 * Ouput CSS to hide the cart when download button shows, to support more plugins that may conflict.
-* Added new actions to plugin activation and deactivation.
+* Added new actions to plugin activation and deactivation
 
 = 2.3.7 =
 * Fixed detection of WooCommerce Memberships on some setups

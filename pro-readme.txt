@@ -1,5 +1,4 @@
 === Free Downloads - WooCommerce Pro ===
-Contributors: squareonemedia, rwebster85
 Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://squareonemedia.co.uk/products/free-downloads-woocommerce/
 Requires at Least: 4.4

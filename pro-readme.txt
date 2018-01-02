@@ -3,7 +3,6 @@ Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://squareonemedia.co.uk/products/free-downloads-woocommerce/
 Requires at Least: 4.4
 Tested up to: 4.9
-Stable tag: 4.9
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: woocommerce, downloads, downloadable, free downloads, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce

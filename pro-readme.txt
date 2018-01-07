@@ -2,7 +2,7 @@
 Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://squareonemedia.co.uk/products/free-downloads-woocommerce/
 Requires at Least: 4.4
-Tested up to: 4.9
+Tested up to: 4.9.1
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: woocommerce, downloads, downloadable, free downloads, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce
@@ -109,5 +109,17 @@ Below is a list of explicitly supported plugins:
 
 == Changelog ==
 
-= Pro Version 1.0 - 02/01/2018 =
+= 1.0.3 - 7/1/2018 =
+* Changed shortcode logic to improve support with some themes
+* Cleaned up depreciated WooCommerce Membership functions
+* Cleaned up php errors
+
+= 1.0.2 - 5/1/2018 =
+* Fixed JavaScript error on some download actions
+
+= 1.0.1 - 3/1/2018 =
+* Customisations for the email capture form available
+* Cleaned up some minor php errors
+  
+= 1.0 - 2/1/2018 =
 * Pro version released. Mirrors basic edition 3.0 with premium features.

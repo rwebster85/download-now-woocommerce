@@ -98,14 +98,6 @@ Below is a list of explicitly supported plugins:
 
 * TI WooCommerce Wishlist
 
-== Screenshots ==
-
-1. Product with single file (version 2.0)
-2. Button with custom text (version 2.0)
-3. Multiple files (with optional checkboxes) (version 2.0)
-4. One of the settings screens (version 2.0)
-5. Support page (version 2.0)
-6. Download counts (version 2.2)
 
 == Changelog ==
 

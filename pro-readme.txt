@@ -101,6 +101,10 @@ Below is a list of explicitly supported plugins:
 
 == Changelog ==
 
+= 1.0.4 - 9/1/2018 =
+* New option: Show free download history on the user's WooCommerce account page
+* Extra styling options for the email capture message text editor
+
 = 1.0.3 - 7/1/2018 =
 * Changed shortcode logic to improve support with some themes
 * Cleaned up depreciated WooCommerce Membership functions

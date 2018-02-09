@@ -1,11 +1,10 @@
-=== Free Downloads - WooCommerce Pro ===
+=== Free Downloads WooCommerce Pro ===
 Author URI: https://www.squareonemedia.co.uk
 Plugin URL: https://squareonemedia.co.uk/products/free-downloads-woocommerce/
 Requires at Least: 4.4
-Tested up to: 4.9.1
+Tested up to: 4.9.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: woocommerce, downloads, downloadable, free downloads, download now, download no checkout, download button, download now button, wordpress, e-commerce, ecommerce
 
 Allow users to instantly download your free digital products without going through the checkout.
 
@@ -100,6 +99,31 @@ Below is a list of explicitly supported plugins:
 
 
 == Changelog ==
+
+= 1.0.9 - 9/2/2018 =
+* New Feature: Email Capture can now subscribe your guest users to your MailChimp newsletter
+* New Option/Feature: Show user download limits on their WooCommerce account page
+* Switched to using WooCommerce function get_file_download_path for better plugin compatibility. Other plugins hook into that filter
+* New Option: Hide the "read more" button on archive pages if the user could download the product if they were logged in or needed a membership
+* Cleaned up some code
+* Renamed plugin to Free Downloads WooCommerce Pro (removed hyphen)
+* Fixed php error for compatibility with Memberships
+* General housekeeping
+
+= 1.0.8 - 19/1/2018 =
+* New Option: Display a message on a product page if the product is free, requires login to download for free, but the user is not logged in
+* New Option: Set custom download limits for individual WooCommerce Membership plans (set on the Edit Membership Plan page)
+
+= 1.0.7 - 14/1/2018 =
+* Fixed bug where multiple free variations would duplicate on the download page
+
+= 1.0.6 - 14/1/2018 =
+* Backwards Compatible with WooCommerce Memberships 1.8
+* Quantity input no longer shows for free downloads in Woocommerce Products List
+
+= 1.0.5 - 11/1/2018 =
+* Changed action for account page display feature
+* Now supports Woocommerce Products List by NitroWeb
 
 = 1.0.4 - 9/1/2018 =
 * New option: Show free download history on the user's WooCommerce account page
